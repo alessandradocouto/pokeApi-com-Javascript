@@ -260,7 +260,7 @@ to {top:0; opacity:1}
     justify-content: center;
     height: 15vh;
     padding: 1em;
-    border: 1px solid lightgreen;
+    /* border: 1px solid lightgreen; */
 }
 
 .first, .prev, .current, .next, .last {
