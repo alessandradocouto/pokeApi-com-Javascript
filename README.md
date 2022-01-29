@@ -6,15 +6,19 @@ pokemon ao usuário.
 
 ## Screenshots and Preview do Projeto
 
-[Projeto Online](link)
-![modo mobile](link)
-![mnodo desktop](link)
+[Projeto Online](https://alessandradocouto.github.io/pokeApi-com-Javascript/)
 
+![modo mobile, desktop, tablet](modo-mobile-desktop-tablet.png)
+
+![modo mobile detalhes Pikachu](pokemon-3.png)
+![modo tablet detalhes Charmander](pokemon-4.png)
+![modo mobile estatisticas do Charmander](imagem-estatisticas-2.png)
+![modo Desktop home do site](pokemon-home.png)
 
 
 ## O que aprendemos ao desenvolver esse projeto
 
--  Async/await
+- Async/await
 
 - Template Strings
 
@@ -33,13 +37,12 @@ porque as respostas chegam  em velocidade diferentes, sem ordem alguma.
     
 - Tratamentos de erros de resposta JSON
 
+![erro resposta de JSON](erro-de-resposta-JSON.png)
+
 Resposta(response) com valor null vindo da promise dá erro:
 
         Uncaught (in promise) SyntaxError: JSON.parse: unexpected character at 
         line 1 column 1 of the JSON data.
-        
-
-        
 
 
 ## Dados usados da PokeAPI
@@ -56,10 +59,10 @@ Resposta(response) com valor null vindo da promise dá erro:
 
 ### Copyright
 
-Este é um aplicativo não oficial, não comercial, feito apenas por mim e NÃO é afiliado, endossado ou apoiado pela Nintendo, Game Freak ou The Pokémon Company. 
+Este é um aplicativo não oficial, não comercial, feito apenas por mim e NÃO é afiliado ou apoiado pela Nintendo, Game Freak ou The Pokémon Company. 
 Não tenho intenção de infringir direitos de autoria.
 
 
 #### Gostou do projeto?
 
-Deixe uma estrela ou caso queira melhora-lo pode dar **fork** e trabalhar no seu próprio projeto a partir deste.
+Deixe uma estrela ou caso queira melhora-lo pode dar **fork** e trabalhar no seu próprio projeto.
