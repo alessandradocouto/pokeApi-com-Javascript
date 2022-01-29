@@ -26,18 +26,20 @@ pokemon ao usuário.
 
 - Não usar ForEach com async / await
 
-        Não é adequado para promessas e não é adequado para espera assíncrona. 
-
-        Eu solicito cada url dos pokemons sem esperar pela resposta de cada uma delas,
-        os cards dos pokemons acabam ficando fora de ordem, porque as respostas chegam 
-        em velocidade diferentes, sem ordem alguma.
+Não é adequado para promessas e não é adequado para espera assíncrona. 
+Pois eu solicito cada url dos pokemons sem esperar pela resposta de
+cada uma delas, os cards dos pokemons acabam ficando fora de ordem, 
+porque as respostas chegam  em velocidade diferentes, sem ordem alguma.
     
 - Tratamentos de erros de resposta JSON
 
-        Resposta(response) com valor null vindo da promisse dá erro, tratar esse erro
-        e mostrar ao usuário;
-        Erro: Uncaught (in promise) SyntaxError: JSON.parse: unexpected character at 
+Resposta(response) com valor null vindo da promise dá erro:
+
+        Uncaught (in promise) SyntaxError: JSON.parse: unexpected character at 
         line 1 column 1 of the JSON data.
+        
+
+        
 
 
 ## Dados usados da PokeAPI
